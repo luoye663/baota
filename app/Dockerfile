@@ -9,6 +9,8 @@ ARG BAOTA_INSTALL_PATH
 RUN yum install -y wget \
     && yum install -y ca-certificates \
     && yum install -y gd
+#tmp hostname
+RUN echo "bt" > /etc/hostname
 
 # install baota
 RUN set -eux \
