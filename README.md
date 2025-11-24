@@ -22,7 +22,7 @@
 
 ### 2. 到你想生成项目的文件夹下执行命令
 
-`git clone https://github.com/ifui/baota.git`
+`git clone https://github.com/luoye663/baota.git`
 
 ### 3. 进入项目根目录
 
